@@ -1,12 +1,12 @@
 
 :root {
-    --primary: #2F6F6B;
-    --dark: #24343A;
-    --accent: #C9744D;
-    --light: #FAF6F1;
-    --muted: #718087;
-    --border: #E9EDEB;
-    --background: #F7F9F8;
+    --primary: #1D204C;
+    --dark: #151737;
+    --accent: #F4D626;
+    --light: #FFFFFF;
+    --muted: #74778B;
+    --border: #E4E6EF;
+    --background: #F5F6FA;
 }
 
 * {
@@ -252,31 +252,31 @@ body {
 /* Category colours */
 
 .category-card:nth-child(2) .category-icon {
-    background: #C9744D;
+    background: #34365F;
 }
 
 .category-card:nth-child(3) .category-icon {
-    background: #526C80;
+    background: #4A4D78;
 }
 
 .category-card:nth-child(4) .category-icon {
-    background: #788B61;
+    background: #65688C;
 }
 
 .category-card:nth-child(5) .category-icon {
-    background: #806C8F;
+    background: #8587A3;
 }
 
 .category-card:nth-child(6) .category-icon {
-    background: #B18A4C;
+    background: #D4B72B;
 }
 
 .category-card:nth-child(7) .category-icon {
-    background: #477D80;
+    background: #E5C94A;
 }
 
 .category-card:nth-child(8) .category-icon {
-    background: #8A6B55;
+    background: #B49A45;
 }
 
 /* ==========================
@@ -484,7 +484,7 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 7px;
-    background: #EDF4F1;
+    background: #C9D5F7;
     color: var(--primary);
     font-size: 10px;
     font-weight: 800;
@@ -514,7 +514,7 @@ body {
 .empty-state i {
     display: block;
     font-size: 35px;
-    color: #A7B8B2;
+    color: #b5b1c4;
     margin-bottom: 12px;
 }
 
@@ -593,7 +593,7 @@ body {
     margin-top: 40px;
     border-left: 4px solid var(--primary);
     border-radius: 8px;
-    background: #EDF4F1;
+    background: #E6EBF9;
 }
 
 .directory-note i {
