@@ -2,7 +2,7 @@
 :root {
     --primary: #1D204C;
     --dark: #151737;
-    --accent: #F4D626;
+    --accent: #F3BA46;
     --light: #FFFFFF;
     --muted: #74778B;
     --border: #E4E6EF;
@@ -20,9 +20,7 @@ body {
     margin: 0;
 }
 
-/* ==========================
-   HERO
-========================== */
+/* HERO */
 
 .providers-hero {
     position: relative;
@@ -92,7 +90,7 @@ body {
 }
 
 .providers-hero h1 span {
-    color: #A7CFC4;
+    color: #F3BA46;
 }
 
 .providers-hero p {
@@ -103,9 +101,7 @@ body {
     line-height: 1.9;
 }
 
-/* ==========================
-   MAIN SECTION
-========================== */
+/* MAIN SECTION */
 
 .directory-section {
     padding: 65px 0 80px;
@@ -138,9 +134,7 @@ body {
     margin: 0;
 }
 
-/* ==========================
-   CATEGORY LANDING VIEW
-========================== */
+/* CATEGORY LANDING VIEW */
 
 .category-grid {
     display: grid;
@@ -251,9 +245,9 @@ body {
 
 /* Category colours */
 
-.category-card:nth-child(2) .category-icon {
+/* .category-card:nth-child(2) .category-icon {
     background: #34365F;
-}
+} */
 
 .category-card:nth-child(3) .category-icon {
     background: #4A4D78;
@@ -268,20 +262,18 @@ body {
 }
 
 .category-card:nth-child(6) .category-icon {
-    background: #D4B72B;
+    background: #8587A3;
 }
 
-.category-card:nth-child(7) .category-icon {
-    background: #E5C94A;
+/* .category-card:nth-child(7) .category-icon {
+    background: #F3BA46;
 }
 
 .category-card:nth-child(8) .category-icon {
-    background: #B49A45;
-}
+    background: #F3BA46;
+} */
 
-/* ==========================
-   CATEGORY DETAILS
-========================== */
+/* CATEGORY DETAILS */
 
 #categoryDetails {
     display: none;
@@ -581,9 +573,7 @@ body {
     cursor: not-allowed;
 }
 
-/* ==========================
-   INFORMATION NOTE
-========================== */
+/* INFORMATION NOTE */
 
 .directory-note {
     display: flex;
@@ -612,9 +602,7 @@ body {
     color: var(--dark);
 }
 
-/* ==========================
-   FOOTER
-========================== */
+/* FOOTER */
 
 .page-footer {
     padding: 23px 15px;
@@ -624,9 +612,7 @@ body {
     font-size: 11px;
 }
 
-/* ==========================
-   RESPONSIVE DESIGN
-========================== */
+/* RESPONSIVE DESIGN */
 
 @media (min-width: 1200px) {
     .category-grid {
